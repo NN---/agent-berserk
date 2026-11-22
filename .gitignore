@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnpm-store/
+jspm_packages/
+bower_components/
+
+# npm is the package manager for this repository.
+pnpm-lock.yaml
+yarn.lock
+
+# Build output and TypeScript caches
+dist/
+build/
+out/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+.tsbuildinfo
+.eslintcache
+.cache/
+.parcel-cache/
+.turbo/
+
+# Logs and debug output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and OS
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code local files (the shared .claude/rules folder stays tracked)
+.claude/settings.local.json
+.claude/worktrees/
+CLAUDE.local.md
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+scratch-*.mjs
+
+.claude
+
+# NOT ignored on purpose: .claude-plugin/types/ holds the engine's type file, committed so CI can typecheck.
+
+# Codex local files (shared AGENTS.md stays tracked)
+.codex/
+AGENTS.override.md
+
+# GitHub Copilot local files (.github/copilot-instructions.md stays tracked)
+.copilot/
+copilot-instructions.local.md

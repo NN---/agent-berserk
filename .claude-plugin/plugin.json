@@ -1,0 +1,8 @@
+{
+  "name": "berserk",
+  "version": "0.2.0",
+  "description": "/berserk: burn leftover quota before the reset. Strong models for hard bursts, fast ones for routine steps, with a loud ember look.",
+  "author": { "name": "NN---" },
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

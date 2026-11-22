@@ -1,0 +1,12 @@
+{
+  "name": "agent-berserk",
+  "description": "Claude Code mods.",
+  "owner": { "name": "NN---" },
+  "plugins": [
+    {
+      "name": "berserk",
+      "source": "./",
+      "description": "/berserk: burn leftover quota before the reset, with model routing and an ember look."
+    }
+  ]
+}

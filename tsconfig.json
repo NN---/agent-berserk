@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "strict": true,
+    "target": "ES2023",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true,
+    "allowJs": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "useUnknownInCatchVariables": true,
+    "lib": ["esnext"],
+    "types": ["node"],
+    "skipLibCheck": true,
+    "paths": {
+      "claude-code": ["./.claude-plugin/types/claude-code/index.d.ts"],
+      "claude-code/testing": ["./.claude-plugin/types/claude-code/index.d.ts"]
+    }
+  },
+  "include": ["cli/**/*.ts", "hooks/**/*.ts", "hooks/**/*.tsx", "types/**/*.d.ts", ".claude-plugin/types/claude-code/index.d.ts"]
+}
