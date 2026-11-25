@@ -7,7 +7,7 @@ Berserk uses the quota you have left before your window resets. It adjusts model
 ## Install in Claude Code
 
 ```
-/plugin install berserk --marketplace NN---/agent-berserk
+/plugin install berserk --marketplace https://github.com/NN---/agent-berserk
 ```
 
 Local trial: `claude --plugin-dir ./agent-berserk`.
